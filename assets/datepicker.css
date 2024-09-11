@@ -1,0 +1,120 @@
+.DateInput_input, .DateInput_input_1 {
+  font-size:13px;  /*or whatever size you would like to have*/
+  Width: 60% !important;
+  height: 1.0em !important;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  text-align:center;
+}
+
+.DateInput {
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    position: relative;
+    display: inline-block;
+    width: 100px;
+    /* vertical-align: middle; */
+}
+
+
+#container_custom > div{
+  visibility: visible !important;
+}
+
+#table-div > div {
+  visibility: visible !important;
+}
+
+/* For other devices: */
+@media (max-width: 1200px) {
+  #container_custom_graph {
+    grid-template-rows: 50px 50px auto !important;
+    grid-template-columns: 2fr 2fr !important;
+    column-gap: 0rem !important;
+}
+
+#barChartDivs {
+  grid-column: 1/2 !important;
+}
+
+#rightBubbleCard {
+  grid-column: 2/3 !important;
+}
+
+#bubbleFilters {
+  max-height: 19rem !important;
+}
+
+
+
+}
+
+/* For mobile phones: */
+@media (max-width: 768px) {
+  #container_custom {
+    grid-template-rows: 40px 50px 50px 20px auto auto auto auto auto !important;
+    grid-template-columns: 1fr !important;
+    column-gap: 0rem !important;
+}
+
+#container_custom_graph {
+  grid-template-rows: 50px 50px auto auto !important;
+  grid-template-columns: 1fr !important;
+  column-gap: 1rem !important;
+}
+
+#emptyDiv {
+  grid-column: 1/5 !important;
+}
+
+#emptyDiv2 {
+  grid-column: 1/5 !important;
+}
+
+#dateRangeDiv {
+  grid-column: 1/5 !important;
+}
+
+#salesCard {
+  grid-column: 1/5 !important;
+}
+
+#profitCard {
+  grid-column: 1/5 !important;
+}
+
+#discountRateCard {
+  grid-column: 1/5 !important;
+}
+
+#rightCard {
+  grid-column: 1/5 !important;
+}
+
+#topRow {
+  grid-column: 1/2 !important;
+} 
+
+#periodFilters {
+  grid-column: 1/2 !important;
+} 
+
+#dateRangeDivGraph {
+  grid-column: 1/2 !important;
+} 
+
+#barChartDivs {
+  grid-column: 1/2 !important;
+} 
+
+#rightBubbleCard {
+  grid-column: 1/2 !important;
+}
+
+
+#offcanvas {
+  max-width: 50% !important;
+}
+
+}

@@ -1,0 +1,7 @@
+Postal Code,Region,State,City,Returned,Quantity,Sales,Discount
+12345,East,Boston,N/A,0,10000,1000,0
+345567,East,Miami,,0,222,1222,0
+6789,West,New York,,0,12112,12121,0
+123457,South,Boston,,0,232,34,0
+123456,South,Boston,,0,100,10,0
+1234,South,Boston,,0,100,100,0
